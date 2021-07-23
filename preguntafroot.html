@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="scripts/preguntas.js"></script>
+    <link rel="stylesheet" href="styles/preguntas.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <title>Document</title>
+  </head>
+  <body onload="iniciarPreguntas()">
+    <h4 id="tiempo"></h4>
+    <div id="p1" class="pregunta">
+      <h1>1. ¿Cuál es la fruta que más refresca?</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones1" value="sandia" /> sandia <br />
+      <input type="radio" name="opciones1" value="papaya" /> papaya <br />
+      <input type="radio" name="opciones1" value="fresa" /> fresa <br />
+    </div>
+
+    <div id="p2" class="pregunta">
+      <h1>2.¿Cuál es la fruta que más refresca?</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones2" value="arandano" /> arandano <br />
+      <input type="radio" name="opciones2" value="lucuma" /> lucuma <br />
+      <input type="radio" name="opciones2" value="fresa" /> fresa <br />
+    </div>
+
+    <div id="p3" class="pregunta">
+      <h1>3.La fruta con más antioxidantes es...</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones3" value="melon" /> melon <br />
+      <input type="radio" name="opciones3" value="lucuma" /> lucuma <br />
+      <input type="radio" name="opciones3" value="guayaba" /> guayaba <br />
+    </div>
+    <a href="Resultados.html">
+      <button id="boton" type="button" onclick="continuar(event,'fruta')">
+        Guardar
+      </button></a
+    >
+  </body>
+</html>

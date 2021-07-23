@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="scripts/preguntas.js"></script>
+    <link rel="stylesheet" href="styles/preguntas.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <title>Document</title>
+  </head>
+  <body onload="iniciarPreguntas()">
+    <h4 id="tiempo"></h4>
+    <div id="p1" class="pregunta">
+      <h1>1.¿Los Juegos Olímpicos se celebran cada cuántos años ?</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones1" value="4 años" /> 4 años <br />
+      <input type="radio" name="opciones1" value="12 años" /> 12 años<br />
+      <input type="radio" name="opciones1" value="2 años" /> 2 años <br />
+    </div>
+    <div id="p2" class="pregunta">
+      <h1>
+        2.¿Qué país africano fue el primero en clasificarse para una Copa del
+        Mundo?
+      </h1>
+      Opciones : <br />
+      <input type="radio" name="opciones2" value="egipto" /> egipto <br />
+      <input type="radio" name="opciones2" value="kenia" /> kenia <br />
+      <input type="radio" name="opciones2" value="nigeria" /> nigeria <br />
+    </div>
+    <div id="p3" class="pregunta">
+      <h1>
+        3.¿Cuántas medallas ganó China en los Juegos Olímpicos de Beijing en
+        2008?
+      </h1>
+      Opciones : <br />
+      <input type="radio" name="opciones3" value="300" /> 300 <br />
+      <input type="radio" name="opciones3" value="5" /> 5 <br />
+      <input type="radio" name="opciones3" value="100" /> 100 <br />
+    </div>
+    <a href="Resultados.html"
+      ><button id="boton" type="button" onclick="continuar(event,'deporte')">
+        Guardar
+      </button></a
+    >
+  </body>
+</html>

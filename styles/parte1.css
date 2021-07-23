@@ -1,0 +1,37 @@
+.titulo {
+  margin: 0px;
+  text-align: center;
+}
+.nombreinput {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contenedor {
+  width: 400px;
+  display: block;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.empezar {
+  border-radius: 5px;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(93, 31, 99);
+  margin: 0px auto;
+  display: block;
+  width: 200px;
+  text-align: center;
+  transition: 0.2s linear all;
+}
+.empezar:hover {
+  background-color: palevioletred;
+  transform: scale(1.2);
+}

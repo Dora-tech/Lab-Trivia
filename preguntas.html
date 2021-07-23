@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="scripts/preguntas.js"></script>
+    <link rel="stylesheet" href="styles/preguntas.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+  </head>
+  <body onload="iniciarPreguntas()">
+    <!-- tiempo de 10 s -->
+    <h4 id="tiempo"></h4>
+    <div id="p1" class="pregunta">
+      <h1>1. ¿Cuantas peliculas tiene shrek ?</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones1" value="2" /> 2 <br />
+      <input type="radio" name="opciones1" value="4" /> 4 <br />
+      <input type="radio" name="opciones1" value="8" /> 8 <br />
+    </div>
+    <!--
+    //el input radio permite colocar o seleccionar una opcion entre varias
+
+    -->
+    <div id="p2" class="pregunta">
+      <h1>2.¿Como se llama el horrible vecino en Toy Story?</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones2" value="miguel" /> miguel <br />
+      <input type="radio" name="opciones2" value="sid" /> sid <br />
+      <input type="radio" name="opciones2" value="carlos" /> carlos <br />
+    </div>
+    <div id="p3" class="pregunta">
+      <h1>3.¿director de los poetas muertos?</h1>
+      Opciones : <br />
+      <input type="radio" name="opciones3" value="Jorge castro" />Jorge castro
+      <br />
+      <input type="radio" name="opciones3" value="piter weir" /> piter weir<br />
+      <input type="radio" name="opciones3" value="jim carrey" /> jim carrey
+      <br />
+    </div>
+    <!-- etiqueta me ll -->
+    <a href="Resultados.html"
+      ><button id="boton" type="button" onclick="continuar(event ,'cine')">
+        Guardar
+      </button></a
+    >
+    <!--
+    //onclick es un atributo de un elemnto html que permite ejecutar algo cuandp
+    das click
+
+    -->
+  </body>
+</html>
